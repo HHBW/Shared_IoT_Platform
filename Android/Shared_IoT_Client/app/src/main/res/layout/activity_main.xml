@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <ImageView
+    android:id="@+id/imageView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:srcCompat="@drawable/demo"
+    android:contentDescription="@string/todo"/>
+
+    <TextView
+    android:id="@+id/text_caption"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="35dp"
+    android:background="#FCFDFD"
+    android:text="@string/text_caption"
+    android:textAlignment="center"
+    android:textColor="#070707"
+    android:textSize="30sp"
+    android:textStyle="bold|italic"
+    tools:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_flogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="100dp"
+            android:padding="10dp"
+            android:text="@string/btn_flogin" />
+
+        <Button
+            android:id="@+id/btn_fregister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="50dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginLeft="100dp"
+            android:padding="10dp"
+            android:text="@string/btn_fregister" />
+
+        <Button
+            android:id="@+id/btn_fappinfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginLeft="100dp"
+            android:text="@string/btn_fappinfo" />
+    </LinearLayout>
+
+</RelativeLayout>

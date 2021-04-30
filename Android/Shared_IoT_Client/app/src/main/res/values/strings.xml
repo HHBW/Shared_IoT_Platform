@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Shared_IoT_Client</string>
+    <string name="text_caption">* * Shared ==== IoT * *</string>
+    <string name="btn_flogin">用户登陆</string>
+    <string name="btn_fregister">用户注册</string>
+    <string name="btn_fappinfo">软件信息</string>
+    <string name="btn_fshare">共享设备</string>
+    <string name="btn_fadd">添加设备</string>
+    <string name="btn_fmanage">管理设备</string>
+    <string name="btn_fview">查看设备</string>
+    <string name="text_cmenu">共享物联网平台</string>
+    <string name="text_ulview">用户登陆</string>
+    <string name="text_urview">用户注册</string>
+    <string name="btn_ok">确认</string>
+    <string name="btn_cancel">返回</string>
+    <string name="text_username">用户名</string>
+    <string name="text_password">密码</string>
+    <string name="text_sdview">共享设备</string>
+    <string name="text_adview">添加设备</string>
+    <string name="text_mdview">管理设备</string>
+    <string name="text_vdview">查看设备</string>
+    <string name="todo">TODO</string>
+    <string name="text_mdshared">分享的设备</string>
+    <string name="text_sdname">设备名</string>
+    <string name="text_mdadded">添加的设备</string>
+    <string name="text_devpermit_default">免费</string>
+    <string name="text_devtitle_default">NONE</string>
+    <string name="text_devdata_default">NONE</string>
+    <string name="btn_fresh">刷新</string>
+    <string name="btn_msgboard">留言板</string>
+    <string name="radio_free">免费</string>
+    <string name="radio_nofree">需授权</string>
+    <string name="text_mbtitle">留言板</string>
+    <string name="text_msgalarm">给你发了一条消息</string>
+    <string name="btn_reply">回复</string>
+    <string name="btn_send">发送</string>
+
+
+</resources>
